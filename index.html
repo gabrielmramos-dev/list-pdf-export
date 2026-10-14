@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>List PDF Export for ClickUp™ — your whole List as a client-ready PDF</title>
+<meta name="description" content="Chrome extension that turns a ClickUp List into a clean, printable PDF report: every task, subtasks indented under their parent, custom fields as columns, your logo. Official ClickUp API.">
+<link rel="icon" href="assets/favicon-32.png">
+<meta property="og:title" content="List PDF Export for ClickUp™">
+<meta property="og:description" content="Your whole ClickUp List. One client-ready PDF.">
+<meta property="og:image" content="assets/og-image.png">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><img src="assets/icon.svg" alt=""> List PDF Export <small>for ClickUp™</small></a>
+  <nav class="links">
+    <a href="#features">Features</a><a href="#pricing">Pricing</a><a href="how-to-export-clickup-list-to-pdf.html">Guide</a><a href="#faq">FAQ</a>
+    <a class="btn small" href="https://chromewebstore.google.com/detail/mcgpcpghdocfgbmpbhffgbiehhjjbnpc">Add to Chrome</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <div class="kicker">Chrome extension · Official ClickUp API</div>
+    <h1>Your whole ClickUp List.<br><em>One client-ready PDF.</em></h1>
+    <p class="lead">Printing from ClickUp gives you the screen as it is. List PDF Export builds a real document: every task, subtasks indented under their parent, custom fields as columns, and your logo on top.</p>
+    <div class="cta">
+      <a class="btn" href="https://chromewebstore.google.com/detail/mcgpcpghdocfgbmpbhffgbiehhjjbnpc">Add to Chrome, it's free</a>
+      <a class="btn ghost" href="assets/sample-report.pdf">See a sample PDF</a>
+    </div>
+    <div class="note">Free plan exports full Lists. No credit card needed.</div>
+  </div>
+  <div class="paper"><img src="assets/report-hero.png" alt="Sample PDF report generated from a ClickUp List, with a client logo, grouped by status" width="1100" height="650"></div>
+</div></section>
+
+<section id="features"><div class="wrap">
+  <h2>Built like a document, not a screenshot</h2>
+  <p class="sub">Everything you'd otherwise fix by hand in Excel before sending a status report to a client or your manager.</p>
+  <div class="grid3">
+    <div class="card"><div class="dot"></div><h3>The whole List</h3><p>Every task in one report. No scrolling to load tasks first, no dashboard limits.</p></div>
+    <div class="card"><div class="dot"></div><h3>Subtasks in place</h3><p>Subtasks are indented right under their parent task, in the same order as your view.</p></div>
+    <div class="card"><div class="dot"></div><h3>Custom fields as columns</h3><p>Dropdowns, labels, dates, numbers, currency, people and more. Empty columns are hidden.</p></div>
+    <div class="card"><div class="dot"></div><h3>Grouped by status</h3><p>Same status order as your List, with an optional page break per status.</p></div>
+    <div class="card"><div class="dot"></div><h3>Print-ready pages</h3><p>US Letter or A4, landscape or portrait, with table headers repeated on every page.</p></div>
+    <div class="card"><div class="dot"></div><h3>Your brand <span class="badge">Pro</span></h3><p>Add your logo and your own report title, and remove the small "Made with" footer.</p></div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap split">
+  <div class="paper"><img src="assets/report-subtasks.png" alt="Report rows showing subtasks indented under their parent task and custom field columns" width="1100" height="475"></div>
+  <div>
+    <h2>Set up once, export in seconds</h2>
+    <ol class="steps">
+      <li><b>Open a List in ClickUp</b>and click the extension icon. It opens in Chrome's side panel.</li>
+      <li><b>Paste your personal API token once</b>The panel shows where to find it (ClickUp → Settings → Apps). It's stored only in your browser.</li>
+      <li><b>Pick your columns and click Create PDF</b>Then choose "Save as PDF" in Chrome's print dialog.</li>
+    </ol>
+  </div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <h2>Simple pricing</h2>
+  <p class="sub">The free plan is the full product. Pro is for reports you send to clients.</p>
+  <div class="pricing">
+    <div class="plan">
+      <h3>Free</h3>
+      <div class="price">$0</div>
+      <p class="alt-price">Forever</p>
+      <ul><li>Full List export, any size</li><li>Subtasks, custom fields, statuses</li><li>Letter or A4, page break per status</li><li>Small "Made with List PDF Export" footer</li></ul>
+      <a class="btn ghost" href="https://chromewebstore.google.com/detail/mcgpcpghdocfgbmpbhffgbiehhjjbnpc">Add to Chrome</a>
+    </div>
+    <div class="plan pro">
+      <h3>Pro <span class="badge">For agencies</span></h3>
+      <div class="price">$7.99 <small>/ month</small></div>
+      <p class="alt-price">or $69 / year · or $129 once (lifetime)</p>
+      <ul><li>Everything in Free</li><li>Your logo on every report</li><li>Your own report title</li><li>No footer, ready to send to clients</li></ul>
+      <a class="btn" href="https://chromewebstore.google.com/detail/mcgpcpghdocfgbmpbhffgbiehhjjbnpc">Install, then upgrade in the panel</a>
+    </div>
+  </div>
+  <p class="sub" style="margin-top:20px;font-size:15px">Payments are processed by ExtensionPay and Stripe. Cancel anytime from the extension ("Manage or cancel subscription").</p>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap">
+  <h2>Questions</h2>
+  <details><summary>Is my ClickUp data safe?</summary><p>The extension talks only to the official ClickUp API, using your own personal token, which is stored only in your browser. There is no server of ours in the middle: the PDF is built in your browser. No analytics or tracking. See the <a href="privacy.html">privacy policy</a>.</p></details>
+  <details><summary>Does it work on the free ClickUp plan?</summary><p>It uses ClickUp's public API, which is available on all plans, including Free Forever.</p></details>
+  <details><summary>Can't I just print from ClickUp?</summary><p>You can: Ctrl/Cmd+P prints the List view as it appears on screen, after you scroll to the bottom so every task loads. If you need a clean document with subtasks under their parent, chosen columns and your logo, that's what this extension is for. The <a href="how-to-export-clickup-list-to-pdf.html">guide</a> compares all the options.</p></details>
+  <details><summary>Does it change anything in my ClickUp workspace?</summary><p>No. It only reads your List. It never creates, edits or deletes tasks.</p></details>
+  <details><summary>How do I cancel Pro?</summary><p>Open the extension panel and click "Manage or cancel subscription". You keep Pro until the end of the period you paid for.</p></details>
+  <details><summary>Who makes this?</summary><p>An independent developer. Questions or ideas: <a href="mailto:gabrieldotech@gmail.com">gabrieldotech@gmail.com</a>.</p></details>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div>© 2026 List PDF Export · <a href="privacy.html">Privacy</a> · <a href="how-to-export-clickup-list-to-pdf.html">Guide</a> · <a href="mailto:gabrieldotech@gmail.com">Contact</a></div>
+  <div>Not affiliated with, endorsed by or sponsored by ClickUp. ClickUp™ is a trademark of its respective owner.</div>
+</div></footer>
+</body>
+</html>

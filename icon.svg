@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- backdrop: deep ink, reads on light and dark toolbars -->
+  <rect x="2" y="2" width="124" height="124" rx="28" fill="#141A3A"/>
+  <!-- the page -->
+  <path d="M26 14h50l24 24v70a8 8 0 0 1-8 8H26a8 8 0 0 1-8-8V22a8 8 0 0 1 8-8z" fill="#FFFFFF"/>
+  <!-- folded corner -->
+  <path d="M76 14l24 24H84a8 8 0 0 1-8-8z" fill="#C9CCE0"/>
+  <!-- task rows: checkbox + line; middle row indented = subtask -->
+  <rect x="30" y="44" width="12" height="12" rx="3" fill="#FF5A3C"/>
+  <rect x="48" y="46" width="36" height="8" rx="4" fill="#141A3A"/>
+  <rect x="42" y="64" width="12" height="12" rx="3" fill="#FF5A3C"/>
+  <rect x="60" y="66" width="24" height="8" rx="4" fill="#141A3A"/>
+  <rect x="30" y="84" width="12" height="12" rx="3" fill="#FF5A3C"/>
+  <rect x="48" y="86" width="20" height="8" rx="4" fill="#141A3A"/>
+  <!-- export badge -->
+  <circle cx="96" cy="96" r="26" fill="#FF5A3C" stroke="#141A3A" stroke-width="6"/>
+  <path d="M96 80v22M86 93l10 10 10-10" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M84 110h24" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>
